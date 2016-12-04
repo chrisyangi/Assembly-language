@@ -48,7 +48,7 @@ s:
 	mov ax,4c00h
 	int 21h
 	
-delay:
+delay:					;延时子程序，根据CPU速度更改具体数值		
 	push ax
 	push dx
 	mov dx,10h
